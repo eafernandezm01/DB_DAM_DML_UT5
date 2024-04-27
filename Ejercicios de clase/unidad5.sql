@@ -96,6 +96,7 @@ INSERT INTO empresa (CIF, nombre, fecha_creacion, direccion, total_empleados) VA
 INSERT INTO
     empleado (nombre, ape1, ape2, edad, salario, fecha_contratacion, departamento_id, jefe_id, comision)
 VALUES
+    ('Iván','García', null, 30, 3000.00, '2022-01-15', 1, null, 600),
     ('Eva', 'García', 'López', 30, 30000.00, '2022-01-15', 1, null, 600),
     ('Jara', 'Martínez', 'Rodríguez', 25, 35000.00, '2021-12-20', 2, null, 0),
     ('Carlos', 'Pérez', 'González', 35, 40000.00, '2022-02-05', 1, 1, 150),
@@ -121,6 +122,7 @@ VALUES
 
 -- Cargar datos en la tabla empleado_externo
 INSERT INTO empleado_externo (nombre, ape1, ape2, departamento_id, jefe_id, fecha_subcontratacion, cif_subcontrata) VALUES
+    ('Iván','García',null,1, NULL, '2022-03-01', 'A2345678A'),
     ('Ricardo', 'Gómez', 'Pérez', 1, NULL, '2022-03-01', 'A2345678A'),
     ('Ana', 'González', 'Rodríguez', 1, 1, '2022-03-15', 'A2345678A'),
     ('David', 'Martínez', 'García', 2, NULL, '2021-11-10', 'K6789123A'),
@@ -133,14 +135,15 @@ INSERT INTO empleado_externo (nombre, ape1, ape2, departamento_id, jefe_id, fech
     ('Ana', 'García', 'Pérez', 3, 5, '2022-04-25', 'K6789123A'),
     ('Martín', 'Sánchez', 'Gómez', 4, NULL, '2022-04-15', 'B6666666H'),
     ('Sara', 'Pérez', 'Díaz', 4, 7, '2022-04-30', 'B6666666H'),
-    ('Eva', 'González', 'López', 5, NULL, '2022-04-20', 'C7777777J'),
+    ('Eva', 'García', 'López', 5, NULL, '2022-04-20', 'C7777777J'),
     ('Carlos', 'Díaz', 'García', 5, 9, '2022-04-10', 'C7777777J'),
     ('Lucía', 'Hernández', 'Martínez', 6, NULL, '2022-04-25', 'D8888888B'),
     ('Javier', 'Martín', 'Sánchez', 6, 11, '2022-04-05', 'D8888888B'),
     ('Andrea', 'Pérez', 'Gómez', 7, NULL, '2022-04-30', 'J9999999A'),
     ('Daniel', 'López', 'Hernández', 7, 13, '2022-04-15', 'J9999999A'),
     ('María', 'García', 'Martínez', 8, NULL, '2022-04-10', 'A0101010A'),
-    ('Pablo', 'Rodríguez', 'López', 8, 15, '2022-04-20', 'A0101010A');
+    ('Pablo', 'Rodríguez', 'López', 8, 15, '2022-04-20', 'A0101010A'),
+    ('Eva', 'Garcia', null, 8, 15, '2022-04-20', 'A0101010A');
 
 INSERT INTO
     venta (fecha_venta, total, empleado_id)
