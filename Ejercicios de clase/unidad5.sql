@@ -55,7 +55,7 @@ CREATE TABLE empleado_externo (
 CREATE TABLE
     venta (
         id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
-        fecha_venta DATE NOT NULL,
+        fecha_venta TIMESTAMP NOT NULL,
         total DECIMAL(10, 2) NOT NULL,
         empleado_id INT UNSIGNED,
         CONSTRAINT FK_EMPLEADO_ID FOREIGN KEY (empleado_id) REFERENCES empleado (id)
@@ -155,4 +155,11 @@ VALUES
     ('2022-03-01', 1500.00, 1),
     ('2022-03-15', 2000.00, 2),
     ('2021-11-10', 1800.00, 3),
-    ('2022-01-20', 2200.00, 4);
+    ('2022-01-20', 2200.00, 4),
+    ('2023-01-15', 150.00, 1),
+    ('2022-04-02', 200.50, 2),
+    ('2023-04-03', 75.25, 1),
+    ('2023-03-01', 1500.00, 1),
+    ('2023-05-15', 2000.00, 2),
+    ('2020-11-10', 180.00, 3),
+    ('2023-01-20', 2200.00, 5);
