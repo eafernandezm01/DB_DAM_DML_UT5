@@ -10,8 +10,6 @@
 
 -- Encuentra los empleados que tienen una edad mayor que el promedio de edad de todos los empleados. Ordena por edad de manera ascendente
 
--- Encuentra los empleados que tienen una edad menor que la edad del jefe de su departamento.
-
 -- Encuentra los departamentos cuyos empleado del departamento tenga una comisión mayor que la comisión promedio de todos los empleados.
 
 -- Encuentra el nombre de la empresa que subcontrató a Iván García.
