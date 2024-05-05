@@ -4,13 +4,13 @@
     https://sites.google.com/view/dam-basesdedatos/5-sqldml-consultas/consultas-en-varias-tablas#h.ltrbhp5wz9yx 
 
     Pero cuidado: 
-        ¡No todas son outer join (left join, right join o full join) hay tambien inner join (join)
+        ¡No todas son outer join (left join, right join o full join) hay también inner join (join)
 */
 
 
 /*
 Encuentra todas las personas que han adoptado mascotas y muestra también aquellas que no han adoptado ninguna mascota.
-Muestra el nombre completo de la persona, id del animal y la fecha de adopcion.
+Muestra el nombre completo de la persona, id del animal y la fecha de adopción.
 Ordena por nombre de la persona.
  */
 
