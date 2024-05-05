@@ -1,9 +1,10 @@
 /* 
-    PRACTICAR CONSULTAS EXTERNAS LAS OUTER JOIN 
+    PRACTICAR CONSULTAS EXTERNAS, LAS OUTER JOIN 
     Lee el tema primero para que lo entiendas: 
     https://sites.google.com/view/dam-basesdedatos/5-sqldml-consultas/consultas-en-varias-tablas#h.ltrbhp5wz9yx 
 
-    No todas son outer join (left join, right join o full join) hay tambien inner join (join)
+    Pero cuidado: 
+        ¡No todas son outer join (left join, right join o full join) hay tambien inner join (join)
 */
 
 
